@@ -30,7 +30,11 @@ const Home = () => {
                         <FaGoogle />
                       </div>
                     </a>
-                    <a target="_blank" href="https://github.com/TauDuque">
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/TauDuque"
+                    >
                       <div className="icon github">
                         <div className="tooltip">Github</div>
                         <FaGithub />
@@ -38,6 +42,7 @@ const Home = () => {
                     </a>
                     <a
                       target="_blank"
+                      rel="noreferrer"
                       href="https://www.linkedin.com/in/tau-ribeiro/"
                     >
                       <div className="icon linkedin">
