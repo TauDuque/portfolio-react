@@ -9,6 +9,7 @@ import infinityscroll from "./scroll.gif";
 import player from "./player.gif";
 import bookeeper from "./keeper.gif";
 import countdown from "./countdown.gif";
+import movies from "./movies-db.gif";
 
 export {
   profile,
@@ -22,4 +23,5 @@ export {
   player,
   countdown,
   bookeeper,
+  movies,
 };

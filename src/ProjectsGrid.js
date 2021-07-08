@@ -101,7 +101,7 @@ const ProjectsGrid = () => {
       <span className="d-flex mt-3" style={{ justifyContent: "center" }}>
         <Link to="projects">
           <button
-            className="cta-btn cta-btn--hero"
+            className="effect box-fill-skew"
             href="https://github.com/TauDuque"
           >
             Veja meus projetos!

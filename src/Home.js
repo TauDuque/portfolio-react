@@ -90,11 +90,11 @@ const Home = () => {
                     <div className="skills-column">
                       <h4>JavaScript| ReactJs | HTML5 | CSS3</h4>
                       <h4> Bootstrap | Material-ui | jQuery </h4>
-                      <h4>Axios | React Router | AWS Lambda</h4>
-                      <h4>NodeJs | DynamoDB | Styled-Components</h4>
-                      <h4>Express | AWS Cognito | PostGreSQL </h4>
-                      <h4>Git | GitHub | Serverless </h4>
-                      <h4> Wordpress </h4>
+                      <h4>Axios | React Router | Styled-Components</h4>
+                      <h4>NodeJs | DynamoDB | Context API</h4>
+                      <h4>Express | AWS Cognito | AWS Lambda </h4>
+                      <h4>Git | GitHub | PostGreSQL </h4>
+                      <h4> Wordpress | Serverless Functions</h4>
                     </div>
                   </div>
                   <div className="col-md-6 col-sm-12 ">
