@@ -103,7 +103,7 @@ export const dataJs = [
     description:
       "Desenvolvido com JavaScript, o projeto Final Countdown permite ao usuário agendar um evento, tarefa ou acontecimento e acompanhar a quantidade exata de tempo até aquele dia agendado chegar. Mesmo recarregando ou saindo do site o usuário permanecerá com a mesma contagem até reiniciar o contador e inserir outra atividade. Após o fim da contagem no dia agendado, o usuário poderá saber o momento exato em que a contagem terminou.",
     stack: "HTML | CSS | JavaScript",
-    url: "https://my-menu.netlify.app/",
+    url: "https://final-countdown.netlify.app/",
     gitRepo: "https://github.com/TauDuque/menu-project",
     gif: countdown,
   },
@@ -112,7 +112,7 @@ export const dataJs = [
     description:
       "O projeto me permitiu botar em prática alguns conceitos e fundamentos de JavaScript como armazenamento de preferências ou opções dos usuários do app. Trata-se de um aplicativo simples que permite ao usuário selecionar diversos sites e acessá-los com apenas um clique.",
     stack: "HTML | CSS | JavaScript",
-    url: '"https://book-kepper.netlify.app/"',
+    url: "https://book-kepper.netlify.app/",
     gitRepo: "https://github.com/TauDuque/book-keeper",
     gif: bookeeper,
   },

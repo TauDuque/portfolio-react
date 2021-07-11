@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import AliceCarousel from "react-alice-carousel";
+import { data } from "./projectsData";
 import "react-alice-carousel/lib/alice-carousel.css";
 import {
   sheldonfinal,
@@ -12,7 +13,7 @@ import {
   cart,
   infinityscroll,
   player,
-  bookeeper,
+  movies,
   countdown,
 } from "./assets";
 
@@ -63,25 +64,45 @@ const ProjectsGrid = () => {
     <a target="_blank" rel="noreferrer" href="https://menu-drinks.netlify.app/">
       <img src={cocktails} alt="project gif" />
     </a>,
-    <a target="_blank" rel="noreferrer" href="https://menu-drinks.netlify.app/">
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://bando-player.netlify.app/"
+    >
       <img src={player} alt="project gif" />
     </a>,
-    <a target="_blank" rel="noreferrer" href="https://menu-drinks.netlify.app/">
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://the-wire-br.netlify.app//"
+    >
       <img src={wire3} alt="project gif" />
     </a>,
-    <a target="_blank" rel="noreferrer" href="https://menu-drinks.netlify.app/">
+    <a target="_blank" rel="noreferrer" href="https://my-menu.netlify.app/">
       <img src={menu} alt="project gif" />
     </a>,
-    <a target="_blank" rel="noreferrer" href="https://menu-drinks.netlify.app/">
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://the-infinity-scroll.netlify.app/"
+    >
       <img src={infinityscroll} alt="project gif" />
     </a>,
-    <a target="_blank" rel="noreferrer" href="https://menu-drinks.netlify.app/">
-      <img src={bookeeper} alt="project gif" />
+    <a target="_blank" rel="noreferrer" href="https://movies-omdb.netlify.app/">
+      <img src={movies} alt="project gif" />
     </a>,
-    <a target="_blank" rel="noreferrer" href="https://menu-drinks.netlify.app/">
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://final-countdown.netlify.app/"
+    >
       <img src={countdown} alt="project gif" />
     </a>,
-    <a target="_blank" rel="noreferrer" href="https://menu-drinks.netlify.app/">
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://webshop-cart.netlify.app/"
+    >
       <img src={cart} alt="project gif" />
     </a>,
   ];
