@@ -50,7 +50,7 @@ const Wrapper = styled.section`
   margin-top: -15rem;
   margin-bottom: -1px;
   color: var(--white-color);
-  height: 65vh;
+  height: 70vh;
   .contact-wrapper {
     margin-top: 3.2rem;
     padding: 0 2rem;
