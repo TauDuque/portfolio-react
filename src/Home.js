@@ -153,7 +153,7 @@ const Wrapper = styled.section`
       var(--secondary-color) 100%
     );
     color: var(--white-color);
-    height: 105vh;
+    height: 110vh;
     border-top: 0px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
