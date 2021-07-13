@@ -134,7 +134,7 @@ const ProjectsGrid = () => {
 };
 
 const Wrapper = styled.article`
-  height: 86vh;
+  height: 92vh;
   margin-top: 35px;
   .main-grid {
     width: 100vw;
