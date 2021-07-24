@@ -1,14 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import { data, dataJs } from "../projectsData";
 import Contact from "./Contact";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
 import { TiArrowUpThick } from "react-icons/ti";
+import { useGlobalContext } from "../context";
+import { getUniqueValues } from "../utils/helper";
 
 const Projects = () => {
   const [showArrow, setShowArrow] = useState("hideComp");
+  const { projects, filterProjects, filtered_projects } = useGlobalContext();
+  const [projectCat, setProjectCat] = useState("Todos");
+
   window.onscroll = function () {
     scrollFunction();
   };
+
+  useEffect(() => {
+    filterProjects(projectCat);
+  }, []);
+
+  const cats = getUniqueValues(projects, "category");
 
   function scrollFunction() {
     if (
@@ -42,8 +54,21 @@ const Projects = () => {
         <div className="container">
           <div className="project-wrapper">
             <h2 className="section-title">Projetos</h2>
-            <h5 className="section-title">React</h5>
-            {data.map((project, index) => {
+            <ul>
+              {cats.map((cat, index) => {
+                return (
+                  <li
+                    key={index}
+                    className="project-select"
+                    onClick={() => filterProjects(cat)}
+                  >
+                    {cat}
+                  </li>
+                );
+              })}
+            </ul>
+
+            {filtered_projects.map((project, index) => {
               return (
                 <div key={index} className="row">
                   <div className="col-lg-4 col-sm-12">
@@ -84,48 +109,6 @@ const Projects = () => {
                 </div>
               );
             })}
-            <h5 className="section-title">Vanilla JavaScript</h5>
-            {dataJs.map((project, index) => {
-              return (
-                <div key={index} className="row">
-                  <div className="col-lg-4 col-sm-12">
-                    <div className="projects-text">
-                      <h3 className="projects-title">{project.title}</h3>
-                      <div>
-                        <p className="mb-4">{project.description}</p>
-                        <p style={{ fontWeight: "bold" }}>Tech Stack</p>
-                        <p className="mb-4">{project.stack}</p>
-                      </div>
-                      <a
-                        target="_blank"
-                        className="cta-btn cta-btn--hero"
-                        href={project.url}
-                        rel="noreferrer"
-                      >
-                        Live demo
-                      </a>
-                      <a
-                        target="_blank"
-                        className="cta-btn text-color-main"
-                        href={project.gitRepo}
-                        rel="noreferrer"
-                      >
-                        GitHub
-                      </a>
-                    </div>
-                  </div>
-                  <div className="col-lg-8 col-sm-12">
-                    <div className="projects-image ">
-                      <a href={project.url} rel="noreferrer" target="_blank">
-                        <div data-tilt className="thumbnail rounded  ">
-                          <img src={project.gif} alt="project" />
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
             <button className={showArrow} onClick={() => topFunction()}>
               <TiArrowUpThick />
             </button>
@@ -152,7 +135,24 @@ const Wrapper = styled.section`
   color: var(--dark-blue-text);
   margin-top: -15rem;
   padding-top: 15rem;
-
+  ul {
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+    justify-content: flex-end;
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  .project-select {
+    cursor: pointer;
+  }
+  .project-select:hover {
+    color: var(--primary-color);
+    transform: scale(1.3);
+  }
+  h2 {
+    margin-bottom: 10px;
+  }
   .project-wrapper {
     margin-bottom: 15rem;
   }

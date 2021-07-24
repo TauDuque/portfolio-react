@@ -10,6 +10,10 @@ import player from "./player.gif";
 import bookeeper from "./keeper.gif";
 import countdown from "./countdown.gif";
 import movies from "./movies-db.gif";
+import med from "./med.gif";
+import med2 from "./med2.gif";
+import inicial from "./inicial.gif";
+import form from "./form.gif";
 
 export {
   profile,
@@ -24,4 +28,8 @@ export {
   countdown,
   bookeeper,
   movies,
+  med,
+  med2,
+  inicial,
+  form,
 };

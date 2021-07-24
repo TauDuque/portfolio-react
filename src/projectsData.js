@@ -10,9 +10,35 @@ import {
   bookeeper,
   countdown,
   movies,
+  med,
+  med2,
+  inicial,
+  form,
 } from "./assets";
 
 export const data = [
+  {
+    title: "Agenda de Consultas",
+    description:
+      "Aplicativo feito com React e recursos da AWS. O aplicativo permite agendar consultas através de um formulário onde diversos dados do paciente são registrados, assim como data e hora da consulta, os dados são armazenados no banco de dados DynamoDB através de funções Lambda e podem ser consultados, alterados e apagados conforme necessário.",
+    stack:
+      "HTML | CSS | JavaScript | React | Material-UI | Node | Express | DynamoDB | AWS Lambda | AWS Amplify",
+    url: "https://consultas.netlify.app/",
+    gitRepo: "https://github.com/TauDuque/mcld-test",
+    gif: med,
+    category: "Full Stack",
+  },
+  {
+    title: "Aplicativo de RH",
+    description:
+      "Desenvolvido com React e Styled-Components no Front-End e Express em conjunto com a ORM Sequelize. Aplicativo para Departamentos de RH gerenciarem dados dos funcionários, após o registro os dados são armazenados e podem ser consultados, deletados ou atualizados.",
+    stack:
+      "HTML | CSS | JavaScript | React | Styled-Components | Node | Express | mySQL | Sequelize | Axios",
+    url: "https://rh-react.netlify.app/",
+    gitRepo: "https://github.com/TauDuque/rh-app-front-end",
+    gif: inicial,
+    category: "Full Stack",
+  },
   {
     title: "Movies DB",
     description:
@@ -21,6 +47,7 @@ export const data = [
     url: "https://movies-omdb.netlify.app/",
     gitRepo: "https://github.com/TauDuque/movies-DB-project",
     gif: movies,
+    category: "React",
   },
   {
     title: "Fun With Flags",
@@ -30,6 +57,7 @@ export const data = [
     url: "https://funwithflags-br.netlify.app/",
     gitRepo: "https://github.com/TauDuque/fun-with-flags",
     gif: sheldonfinal,
+    category: "React",
   },
   {
     title: "The Wire Brasil",
@@ -39,6 +67,7 @@ export const data = [
     url: "https://the-wire-br.netlify.app/",
     gitRepo: "https://github.com/TauDuque/wire-project",
     gif: wire3,
+    category: "React",
   },
   {
     title: "Smart Glasses",
@@ -49,6 +78,7 @@ export const data = [
     url: "https://smart-glasses.herokuapp.com/",
     gitRepo: "https://github.com/TauDuque/smart-glasses-front-end",
     gif: glasses2,
+    category: "Full Stack",
   },
   {
     title: "Menu de Drinks",
@@ -58,6 +88,7 @@ export const data = [
     url: "https://menu-drinks.netlify.app/",
     gitRepo: "https://github.com/TauDuque/cocktails-project",
     gif: cocktails,
+    category: "React",
   },
   {
     title: "Carrinho de Compras / Webshop",
@@ -67,6 +98,7 @@ export const data = [
     url: "https://webshop-cart.netlify.app/",
     gitRepo: "https://github.com/TauDuque/cart-project",
     gif: cart,
+    category: "React",
   },
   {
     title: "Menu",
@@ -76,10 +108,8 @@ export const data = [
     url: "https://my-menu.netlify.app/",
     gitRepo: "https://github.com/TauDuque/menu-project",
     gif: menu,
+    category: "React",
   },
-];
-
-export const dataJs = [
   {
     title: "Infinity Scroll",
     description:
@@ -88,6 +118,7 @@ export const dataJs = [
     url: "https://the-infinity-scroll.netlify.app/",
     gitRepo: "https://github.com/TauDuque/infinity-scroll-project-JS",
     gif: infinityscroll,
+    category: "Vanilla JavaScript",
   },
   {
     title: "Player Bando de Seu Pereira",
@@ -97,6 +128,7 @@ export const dataJs = [
     url: "https://bando-player.netlify.app/",
     gitRepo: "https://github.com/TauDuque/bando-player",
     gif: player,
+    category: "Vanilla JavaScript",
   },
   {
     title: "Countdown",
@@ -106,6 +138,7 @@ export const dataJs = [
     url: "https://final-countdown.netlify.app/",
     gitRepo: "https://github.com/TauDuque/menu-project",
     gif: countdown,
+    category: "Vanilla JavaScript",
   },
   {
     title: "Marcador de sites",
@@ -115,6 +148,7 @@ export const dataJs = [
     url: "https://book-kepper.netlify.app/",
     gitRepo: "https://github.com/TauDuque/book-keeper",
     gif: bookeeper,
+    category: "Vanilla JavaScript",
   },
 ];
 
@@ -125,6 +159,8 @@ export const dataJs = [
     stack: "",
     url: "",
     gitRepo: "",
+    gif: "",
+    category: "",
 },
 
 */

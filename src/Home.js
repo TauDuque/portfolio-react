@@ -93,7 +93,7 @@ const Home = () => {
                       <h4>Axios | React Router | Styled-Components</h4>
                       <h4>NodeJs | DynamoDB | Context API</h4>
                       <h4>Express | AWS Cognito | AWS Lambda </h4>
-                      <h4>Git | GitHub | PostGreSQL </h4>
+                      <h4>Git | GitHub | PostgreSQL </h4>
                       <h4> Wordpress | Serverless Functions</h4>
                     </div>
                   </div>

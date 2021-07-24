@@ -1,0 +1,2 @@
+export const FILTER_PROJECTS = "FILTER_PROJECTS";
+export const SORT_PROJECTS = "SORT_PROJECTS";

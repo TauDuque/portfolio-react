@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import AliceCarousel from "react-alice-carousel";
-import { data } from "./projectsData";
 import "react-alice-carousel/lib/alice-carousel.css";
 import {
   sheldonfinal,
@@ -15,7 +14,7 @@ import {
   player,
   movies,
   countdown,
-} from "./assets";
+} from "../assets";
 
 const responsive = {
   0: { items: 1 },
@@ -24,28 +23,6 @@ const responsive = {
 };
 
 const ProjectsGrid = () => {
-  /*   const [activeIndex, setActiveIndex] = useState(0);
-  console.log(activeIndex);
-  const slideHandlerIncreaser = () => {
-    setActiveIndex(activeIndex + 1);
-    if (activeIndex >= 6) {
-      setActiveIndex(0);
-    }
-  };
-
-  const slideHandlerDecreaser = () => {
-    setActiveIndex(activeIndex - 1);
-    if (activeIndex <= 0) {
-      setActiveIndex(6);
-    }
-  };
-
-  const slidePrev = () => setActiveIndex(activeIndex - 1);
-  const slideNext = () => setActiveIndex(activeIndex + 1);
-  const syncActiveIndex = ({ item }) => setActiveIndex(item);
-
-  const handleDragStart = (e) => e.preventDefault(); */
-
   const items = [
     <a
       target="_blank"
