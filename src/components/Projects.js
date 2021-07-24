@@ -12,17 +12,24 @@ const Projects = () => {
   const { projects, filterProjects, filtered_projects } = useGlobalContext();
   const [projectCat, setProjectCat] = useState("Todos");
 
+  console.log(projectCat);
   window.onscroll = function () {
     scrollFunction();
   };
 
   useEffect(() => {
     filterProjects(projectCat);
-  }, []);
+  }, [projectCat]);
 
   const cats = getUniqueValues(projects, "category");
 
   function scrollFunction() {
+    var docHeight =
+      document.height !== undefined
+        ? document.height
+        : document.body.offsetHeight;
+    var finalH = docHeight - 1000;
+    console.log(finalH);
     if (
       document.body.scrollTop < 20 ||
       document.documentElement.scrollTop < 20
@@ -36,8 +43,8 @@ const Projects = () => {
       setShowArrow("arrowTop");
     }
     if (
-      document.body.scrollTop > 5630 ||
-      document.documentElement.scrollTop > 5630
+      document.body.scrollTop > finalH ||
+      document.documentElement.scrollTop > finalH
     ) {
       setShowArrow("arrowBottom");
     }
@@ -59,8 +66,12 @@ const Projects = () => {
                 return (
                   <li
                     key={index}
-                    className="project-select"
-                    onClick={() => filterProjects(cat)}
+                    className={
+                      cat === projectCat
+                        ? "project-select active"
+                        : "project-select"
+                    }
+                    onClick={() => setProjectCat(cat)}
                   >
                     {cat}
                   </li>
@@ -101,7 +112,11 @@ const Projects = () => {
                     <div className="projects-image">
                       <a href={project.url} rel="noreferrer" target="_blank">
                         <div data-tilt className="thumbnail rounded">
-                          <img src={project.gif} alt="project" />
+                          <img
+                            src={project.gif}
+                            alt="project"
+                            className="grow"
+                          />
                         </div>
                       </a>
                     </div>
@@ -141,14 +156,18 @@ const Wrapper = styled.section`
     font-size: 25px;
     justify-content: flex-end;
     list-style: none;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .project-select {
     cursor: pointer;
   }
   .project-select:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     transform: scale(1.3);
+  }
+  .active {
+    color: var(--primary-color);
+    font-weight: bold;
   }
   h2 {
     margin-bottom: 10px;

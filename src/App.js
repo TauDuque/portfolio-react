@@ -1,12 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { About, Contact, Projects, Navbar, ProjectsGrid } from "./components";
+import {
+  About,
+  Contact,
+  Projects,
+  Navbar,
+  ProjectsGrid,
+  ScrollToTop,
+} from "./components";
 import Home from "./Home";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Switch>
           <Route exact path="/">
