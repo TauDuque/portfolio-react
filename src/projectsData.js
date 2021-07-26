@@ -14,15 +14,27 @@ import {
   med2,
   inicial,
   form,
+  pk_lot,
 } from "./assets";
 
 export const data = [
+  {
+    title: "App de Estacionamentos",
+    description:
+      "O projeto simula uma aplicação paa gerenciar um estacionamento, o principal objetivo da aplicação é dar a possibilidade de armazenar todo tipo de informação necessária para o esabelecimento, desde cada veículo estacionado, o tempo de permanência e o valor pago por cada cliente, também é possível gerenciar dados relacionados aos funcionários do estacionamento,como turnos e informações pessoais, além da possibilidade de conferir quem são os funcionários aniversariantes a cada mês. Tudo é armazenado num banco de dados mySQL através de uma Api desenvolvida com Express e Sequelize.",
+    stack:
+      "React | Styled-Components | Axios | React-Router | Node | Express | MySQL | Sequelize ",
+    url: "https://the-parking-lot.netlify.app/",
+    gitRepo: "https://github.com/TauDuque/client-pk-lot",
+    gif: pk_lot,
+    category: "Full Stack",
+  },
   {
     title: "Agenda de Consultas",
     description:
       "Aplicativo feito com React e recursos da AWS. O aplicativo permite agendar consultas através de um formulário onde diversos dados do paciente são registrados, assim como data e hora da consulta, os dados são armazenados no banco de dados DynamoDB através de funções Lambda e podem ser consultados, alterados e apagados conforme necessário.",
     stack:
-      "HTML | CSS | JavaScript | React | Material-UI | Node | Express | DynamoDB | AWS Lambda | AWS Amplify",
+      " React | Material-UI | Node | Express | DynamoDB | AWS Lambda | AWS Amplify",
     url: "https://consultas.netlify.app/",
     gitRepo: "https://github.com/TauDuque/mcld-test",
     gif: med,
@@ -33,7 +45,7 @@ export const data = [
     description:
       "Desenvolvido com React e Styled-Components no Front-End e Express em conjunto com a ORM Sequelize. Aplicativo para Departamentos de RH gerenciarem dados dos funcionários, após o registro os dados são armazenados e podem ser consultados, deletados ou atualizados.",
     stack:
-      "HTML | CSS | JavaScript | React | Styled-Components | Node | Express | mySQL | Sequelize | Axios",
+      " React | Styled-Components | Node | Express | mySQL | Sequelize | Axios",
     url: "https://rh-react.netlify.app/",
     gitRepo: "https://github.com/TauDuque/rh-app-front-end",
     gif: inicial,

@@ -14,6 +14,7 @@ import med from "./med.gif";
 import med2 from "./med2.gif";
 import inicial from "./inicial.gif";
 import form from "./form.gif";
+import pk_lot from "./pk-lot.gif";
 
 export {
   profile,
@@ -32,4 +33,5 @@ export {
   med2,
   inicial,
   form,
+  pk_lot,
 };
