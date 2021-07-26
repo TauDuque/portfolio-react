@@ -83,7 +83,11 @@ const Projects = () => {
               return (
                 <div key={index} className="row">
                   <div className="col-lg-4 col-sm-12">
-                    <div className="projects-text">
+                    <div
+                      className="projects-text"
+                      data-aos="zoom-in-right"
+                      data-aos-duration="2000"
+                    >
                       <h3 className="projects-title">{project.title}</h3>
                       <div>
                         <p className="mb-4">{project.description}</p>
@@ -109,7 +113,13 @@ const Projects = () => {
                     </div>
                   </div>
                   <div className="col-lg-8 col-sm-12">
-                    <div className="projects-image">
+                    <div
+                      className="projects-image"
+                      data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="200"
+                      data-aos-offset="0"
+                    >
                       <a href={project.url} rel="noreferrer" target="_blank">
                         <div data-tilt className="thumbnail rounded">
                           <img
@@ -125,7 +135,7 @@ const Projects = () => {
               );
             })}
             <button className={showArrow} onClick={() => topFunction()}>
-              <TiArrowUpThick />
+              <TiArrowUpThick className="grow-bigger" />
             </button>
             <span className="mt-2">
               <a
