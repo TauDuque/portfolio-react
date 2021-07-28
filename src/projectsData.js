@@ -21,7 +21,7 @@ export const data = [
   {
     title: "App de Estacionamentos",
     description:
-      "O projeto simula uma aplicação paa gerenciar um estacionamento, o principal objetivo da aplicação é dar a possibilidade de armazenar todo tipo de informação necessária para o estabelecimento, desde cada veículo estacionado ao tempo de permanência e o valor pago por cada cliente. Também é possível gerenciar dados relacionados aos funcionários do estacionamento,como turnos e informações pessoais, além da possibilidade de conferir quem são os funcionários aniversariantes a cada mês. Tudo é armazenado num banco de dados mySQL através de uma Api desenvolvida com Express e Sequelize.",
+      "O projeto simula uma aplicação para gerenciar um estacionamento, o principal objetivo da aplicação é dar a possibilidade de armazenar todo tipo de informação necessária para o estabelecimento, desde cada veículo estacionado ao tempo de permanência e o valor pago por cada cliente. Também é possível gerenciar dados relacionados aos funcionários do estacionamento,como turnos e informações pessoais, além da possibilidade de conferir quem são os funcionários aniversariantes a cada mês. Tudo é armazenado num banco de dados mySQL através de uma Api desenvolvida com Express e Sequelize.",
     stack:
       "React | Styled-Components | Axios | React-Router | Node | Express | MySQL | Sequelize ",
     url: "https://the-parking-lot.netlify.app/",
