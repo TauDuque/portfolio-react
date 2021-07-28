@@ -12,7 +12,6 @@ const Projects = () => {
   const { projects, filterProjects, filtered_projects } = useGlobalContext();
   const [projectCat, setProjectCat] = useState("Todos");
 
-  console.log(projectCat);
   window.onscroll = function () {
     scrollFunction();
   };
@@ -29,7 +28,6 @@ const Projects = () => {
         ? document.height
         : document.body.offsetHeight;
     var finalH = docHeight - 1000;
-    console.log(finalH);
     if (
       document.body.scrollTop < 20 ||
       document.documentElement.scrollTop < 20
