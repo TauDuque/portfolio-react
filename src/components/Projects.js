@@ -111,11 +111,7 @@ const Projects = () => {
                     </div>
                   </div>
                   <div className="col-lg-8 col-sm-12">
-                    <div
-                      className="projects-image"
-                      data-aos="fade-zoom-in"
-                      data-aos-easing="ease-in-back"
-                    >
+                    <div className="projects-image">
                       <a href={project.url} rel="noreferrer" target="_blank">
                         <div data-tilt className="thumbnail rounded">
                           <img
