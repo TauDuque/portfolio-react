@@ -1,22 +1,3 @@
-import {
-  sheldonfinal,
-  wire3,
-  glasses2,
-  cocktails,
-  menu,
-  cart,
-  infinityscroll,
-  player,
-  bookeeper,
-  countdown,
-  movies,
-  med,
-  med2,
-  inicial,
-  form,
-  pk_lot,
-} from "./assets";
-
 export const data = [
   {
     title: "App de Estacionamentos",
@@ -36,8 +17,8 @@ export const data = [
     stack:
       " React | Material-UI | Node | Express | DynamoDB | AWS Lambda | AWS Amplify",
     url: "https://consultas.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/med.gif",
-    gif: med,
+    gitRepo: "https://github.com/TauDuque/mcld-test",
+    gif: "https://s6.gifyu.com/images/med.gif",
     category: "Full Stack",
   },
   {
@@ -47,8 +28,8 @@ export const data = [
     stack:
       " React | Styled-Components | Node | Express | mySQL | Sequelize | Axios",
     url: "https://rh-react.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/inicial.gif",
-    gif: inicial,
+    gitRepo: "https://github.com/TauDuque/rh-app-front-end",
+    gif: "https://s6.gifyu.com/images/inicial.gif",
     category: "Full Stack",
   },
   {
@@ -57,8 +38,8 @@ export const data = [
       "Utilizando uma API da OMBD com dados de diversos filmes, Context API e React Router eu desenvolvi uma pequena biblioteca de filmes com diversas informações sobre a produção. O usuário do aplicativo pode realizar uma busca por título através de um input, a API da OMDB é acionada e começa a exibir os filmes de acordo com as mudanças no input",
     stack: "HTML | CSS | JavaScript | ReactJs",
     url: "https://movies-omdb.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/movies-db.gif",
-    gif: movies,
+    gitRepo: "https://github.com/TauDuque/movies-DB-project",
+    gif: "https://s6.gifyu.com/images/movies-db.gif",
     category: "React",
   },
   {
@@ -67,8 +48,8 @@ export const data = [
       "Projeto pessoal que foi originado enquanto eu refletia como poderia usar o React para tirar algumas ideias da cabeça eimplementa-las de uma maneira prática. O projeto segue em andamento, mas enquanto isso é possível através do cursor do mouse alterar as cores para formar diferentes bandeiras.'",
     stack: "HTML | CSS | JavaScript | ReactJs",
     url: "https://funwithflags-br.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/sheldonfinal.gif",
-    gif: sheldonfinal,
+    gitRepo: "https://github.com/TauDuque/fun-with-flags",
+    gif: "https://s6.gifyu.com/images/sheldonfinal.gif",
     category: "React",
   },
   {
@@ -77,8 +58,8 @@ export const data = [
       "Com o intuito de colocar em prática meu aprendizado estou desenvolvendo esse projeto pessoal. Trata-se de uma fan page da série de tv 'the Wire' 'exibida pela HBO entre 2002 e2008, a iniciativa nasceu por interesse pessoal e ausência de conteúdo relacionado a série em língua portuguesa. O site possui um background slider na sessão home e carouselsliders nas demais sessões. Além disso há uma barra de navegação fixa com uma animação em CSS.",
     stack: "HTML | CSS | JavaScript | ReactJs",
     url: "https://the-wire-br.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/wire3.gif",
-    gif: wire3,
+    gitRepo: "https://github.com/TauDuque/wire-project",
+    gif: "https://s6.gifyu.com/images/wire3.gif",
     category: "React",
   },
   {
@@ -89,7 +70,7 @@ export const data = [
       "HTML | CSS | JavaScript | React | NodeJs | Express | Bcrypt | PostgreSQL",
     url: "https://smart-glasses.herokuapp.com/",
     gitRepo: "https://github.com/TauDuque/smart-glasses-front-end",
-    gif: glasses2,
+    gif: "https://s6.gifyu.com/images/glassesfinal.gif",
     category: "Full Stack",
   },
   {
@@ -98,8 +79,8 @@ export const data = [
       " Com a intenção de aprimorar a utilização de React Hooks como useRef e useReducer iniciei o desenvolvimento desse projeto da Coding Addict. Além dos Hooks o projeto também possui conexão com a API da TheCocktailDB e utilização do React Router permitindo ao usuário navegar entre as paǵinas de receitas de drinks.",
     stack: "HTML | CSS | JavaScript | ReactJs",
     url: "https://menu-drinks.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/glassesfinal.gif",
-    gif: cocktails,
+    gitRepo: "https://github.com/TauDuque/cocktails-project",
+    gif: "https://s6.gifyu.com/images/cocktails.gif",
     category: "React",
   },
   {
@@ -108,8 +89,8 @@ export const data = [
       " Este projeto simula uma página deetapa final de compras numa webshop, o app fornece o número total de items inseridos no carrinho, a soma de seus preços e a quantidade individual de cada um dos items. Além disso, o aplicativo permite ao usuário aumentar ou diminuir a quantidade  de cada item, remover um item de duas formas, assim como esvaziar o carrinho retirando todos os items. Projetodesenvolvido com o uso de ReactJs.",
     stack: "HTML | CSS | JavaScript | ReactJs",
     url: "https://webshop-cart.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/cart.gif",
-    gif: cart,
+    gitRepo: "https://github.com/TauDuque/cart-project",
+    gif: "https://s6.gifyu.com/images/cart.gif",
     category: "React",
   },
   {
@@ -118,8 +99,8 @@ export const data = [
       "Projeto desenvolvido com o objetivo de praticar alguns fundamentos novos de ReactJs que estava aprendendo. O app Menu busca simular um cardápio comum de qualquer lanchonete ou restaurante, dividindo as refeições de acordo com o horário em que é servida o que permite a seleção de qual tipo de refeição o usuário do aplicativo está buscando.",
     stack: "HTML | CSS | JavaScript | ReactJs",
     url: "https://my-menu.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/menud1c022a69666e421.gif",
-    gif: menu,
+    gitRepo: "https://github.com/TauDuque/menu-project",
+    gif: "https://s6.gifyu.com/images/menud1c022a69666e421.gif",
     category: "React",
   },
   {
@@ -128,8 +109,8 @@ export const data = [
       "O projeto Infinity Scroll é parte de um curso de JavaScript que estou fazendo, o principal objetivo do projeto é estabelecer familiaridade com o uso de APIs para diferentes finalidades. Além da conexão com o API de imagens da Unsplash que se 'renova' sempre que a barra da página chega próxima do fim, dando a impressão de rolagem de tela infinita, o app posui um loading animado feito com uso de CSS que é exibido enquando as imagens são carregadas.",
     stack: "HTML | CSS | JavaScript<",
     url: "https://the-infinity-scroll.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/scrollae492565aa71623d.gif",
-    gif: infinityscroll,
+    gitRepo: "https://github.com/TauDuque/infinity-scroll-project-JS",
+    gif: "https://s6.gifyu.com/images/scrollae492565aa71623d.gif",
     category: "Vanilla JavaScript",
   },
   {
@@ -138,8 +119,8 @@ export const data = [
       " Em busca de aperfeiçoar alguns fundamentos de JavaScript que estou aprendendo desenvolvi esse projeto. É basicamente um player de musicas do grupo Bando de Seu Pereira de São Paulo. Além das músicas, o projeto também contém imagens e ilustrações do grupo. Os controles permitem ao ouvinte avançar ou retroceder para momentos específicos das músicas, assim como pular faixas ou voltar a anterior. Após o término de uma música, a seguinte é iniciada sem necessidade de nenhum comando, permitindo maior imersão a quem está ouvindo as músicas.",
     stack: "HTML | CSS | JavaScript",
     url: "https://bando-player.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/player928a0442a8120318.gif",
-    gif: player,
+    gitRepo: "https://github.com/TauDuque/bando-player",
+    gif: "https://s6.gifyu.com/images/player928a0442a8120318.gif",
     category: "Vanilla JavaScript",
   },
   {
@@ -148,8 +129,8 @@ export const data = [
       "Desenvolvido com JavaScript, o projeto Final Countdown permite ao usuário agendar um evento, tarefa ou acontecimento e acompanhar a quantidade exata de tempo até aquele dia agendado chegar. Mesmo recarregando ou saindo do site o usuário permanecerá com a mesma contagem até reiniciar o contador e inserir outra atividade. Após o fim da contagem no dia agendado, o usuário poderá saber o momento exato em que a contagem terminou.",
     stack: "HTML | CSS | JavaScript",
     url: "https://final-countdown.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/countdown.gif",
-    gif: countdown,
+    gitRepo: "https://github.com/TauDuque/countdown-JS",
+    gif: "https://s6.gifyu.com/images/countdown.gif",
     category: "Vanilla JavaScript",
   },
   {
@@ -158,8 +139,8 @@ export const data = [
       "O projeto me permitiu botar em prática alguns conceitos e fundamentos de JavaScript como armazenamento de preferências ou opções dos usuários do app. Trata-se de um aplicativo simples que permite ao usuário selecionar diversos sites e acessá-los com apenas um clique.",
     stack: "HTML | CSS | JavaScript",
     url: "https://book-kepper.netlify.app/",
-    gitRepo: "https://s6.gifyu.com/images/keeper1aa5dceed9a505b6.gif",
-    gif: bookeeper,
+    gitRepo: "https://github.com/TauDuque/book-keeper",
+    gif: "https://s6.gifyu.com/images/keeper1aa5dceed9a505b6.gif",
     category: "Vanilla JavaScript",
   },
 ];

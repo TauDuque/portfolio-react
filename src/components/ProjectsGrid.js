@@ -3,18 +3,6 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import {
-  sheldonfinal,
-  wire3,
-  glasses2,
-  cocktails,
-  menu,
-  cart,
-  infinityscroll,
-  player,
-  movies,
-  countdown,
-} from "../assets";
 
 const responsive = {
   0: { items: 1 },
@@ -29,58 +17,51 @@ const ProjectsGrid = () => {
       rel="noreferrer"
       href="https://funwithflags-br.netlify.app/"
     >
-      <img src={sheldonfinal} alt="project gif" />
+      <img
+        src="https://s6.gifyu.com/images/sheldonfinal.gif"
+        alt="project gif"
+      />
     </a>,
     <a
       target="_blank"
       rel="noreferrer"
       href="https://smart-glasses.herokuapp.com/"
     >
-      <img src={glasses2} alt="project gif" o />
+      <img
+        src="https://s6.gifyu.com/images/glassesfinal.gif"
+        alt="project gif"
+        o
+      />
     </a>,
     <a target="_blank" rel="noreferrer" href="https://menu-drinks.netlify.app/">
-      <img src={cocktails} alt="project gif" />
-    </a>,
-    <a
-      target="_blank"
-      rel="noreferrer"
-      href="https://bando-player.netlify.app/"
-    >
-      <img src={player} alt="project gif" />
+      <img src="https://s6.gifyu.com/images/cocktails.gif" alt="project gif" />
     </a>,
     <a
       target="_blank"
       rel="noreferrer"
       href="https://the-wire-br.netlify.app//"
     >
-      <img src={wire3} alt="project gif" />
+      <img src="https://s6.gifyu.com/images/wire3.gif" alt="project gif" />
     </a>,
-    <a target="_blank" rel="noreferrer" href="https://my-menu.netlify.app/">
-      <img src={menu} alt="project gif" />
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://the-parking-lot.netlify.app/"
+    >
+      <img src="https://s6.gifyu.com/images/pk-lot.gif" alt="project gif" />
     </a>,
     <a
       target="_blank"
       rel="noreferrer"
       href="https://the-infinity-scroll.netlify.app/"
     >
-      <img src={infinityscroll} alt="project gif" />
+      <img
+        src="https://s6.gifyu.com/images/scrollae492565aa71623d.gif"
+        alt="project gif"
+      />
     </a>,
     <a target="_blank" rel="noreferrer" href="https://movies-omdb.netlify.app/">
-      <img src={movies} alt="project gif" />
-    </a>,
-    <a
-      target="_blank"
-      rel="noreferrer"
-      href="https://final-countdown.netlify.app/"
-    >
-      <img src={countdown} alt="project gif" />
-    </a>,
-    <a
-      target="_blank"
-      rel="noreferrer"
-      href="https://webshop-cart.netlify.app/"
-    >
-      <img src={cart} alt="project gif" />
+      <img src="https://s6.gifyu.com/images/movies-db.gif" alt="project gif" />
     </a>,
   ];
 
