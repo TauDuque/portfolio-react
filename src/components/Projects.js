@@ -81,11 +81,7 @@ const Projects = () => {
               return (
                 <div key={index} className="row">
                   <div className="col-lg-4 col-sm-12">
-                    <div
-                      className="projects-text"
-                      data-aos="zoom-in-right"
-                      data-aos-duration="2000"
-                    >
+                    <div className="projects-text" data-aos="zoom-in-right">
                       <h3 className="projects-title">{project.title}</h3>
                       <div>
                         <p className="mb-4">{project.description}</p>
