@@ -164,7 +164,7 @@ const Wrapper = styled.section`
     margin-top: 2rem;
   }
   .home-wrapper {
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
   }
   ul {
     line-height: 18px;
