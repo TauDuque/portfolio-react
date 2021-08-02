@@ -36,12 +36,8 @@ const ProjectsGrid = () => {
     <a target="_blank" rel="noreferrer" href="https://menu-drinks.netlify.app/">
       <img src="https://s6.gifyu.com/images/cocktails.gif" alt="project gif" />
     </a>,
-    <a
-      target="_blank"
-      rel="noreferrer"
-      href="https://the-wire-br.netlify.app//"
-    >
-      <img src="https://s6.gifyu.com/images/wire3.gif" alt="project gif" />
+    <a target="_blank" rel="noreferrer" href="https://the-wire-br.netlify.app/">
+      <img src="https://s6.gifyu.com/images/wire-new.gif" alt="project gif" />
     </a>,
     <a
       target="_blank"

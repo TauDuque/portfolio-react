@@ -163,7 +163,7 @@ const Wrapper = styled.section`
   .home-content {
     margin-top: 2rem;
   }
-  500 .home-wrapper {
+  .home-wrapper {
     padding-bottom: 2rem;
   }
   ul {

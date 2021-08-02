@@ -11,6 +11,17 @@ export const data = [
     category: "Full Stack",
   },
   {
+    title: "The Wire Brasil",
+    description:
+      "Com o intuito de colocar em prática meu aprendizado estou desenvolvendo esse projeto pessoal. Trata-se de uma fan page da série de tv 'the Wire' 'exibida pela HBO entre 2002 e2008, a iniciativa nasceu por interesse pessoal e ausência de conteúdo relacionado a série em língua portuguesa. O site possui um background slider na sessão home e carouselsliders nas demais sessões. Além disso há uma barra de navegação fixa com uma animação em CSS.",
+    stack:
+      "React | Styled-Components | Axios | React-Router | Node | Express | MySQL | Sequelize ",
+    url: "https://the-wire-br.netlify.app/",
+    gitRepo: "https://github.com/TauDuque/new-wire",
+    gif: "https://s6.gifyu.com/images/wire-new.gif",
+    category: "Full Stack",
+  },
+  {
     title: "Agenda de Consultas",
     description:
       "Aplicativo feito com React e recursos da AWS. O aplicativo permite agendar consultas através de um formulário onde diversos dados do paciente são registrados, assim como data e hora da consulta, os dados são armazenados no banco de dados DynamoDB através de funções Lambda e podem ser consultados, alterados e apagados conforme necessário.",
@@ -50,16 +61,6 @@ export const data = [
     url: "https://funwithflags-br.netlify.app/",
     gitRepo: "https://github.com/TauDuque/fun-with-flags",
     gif: "https://s6.gifyu.com/images/sheldonfinal.gif",
-    category: "React",
-  },
-  {
-    title: "The Wire Brasil",
-    description:
-      "Com o intuito de colocar em prática meu aprendizado estou desenvolvendo esse projeto pessoal. Trata-se de uma fan page da série de tv 'the Wire' 'exibida pela HBO entre 2002 e2008, a iniciativa nasceu por interesse pessoal e ausência de conteúdo relacionado a série em língua portuguesa. O site possui um background slider na sessão home e carouselsliders nas demais sessões. Além disso há uma barra de navegação fixa com uma animação em CSS.",
-    stack: "HTML | CSS | JavaScript | ReactJs",
-    url: "https://the-wire-br.netlify.app/",
-    gitRepo: "https://github.com/TauDuque/wire-project",
-    gif: "https://s6.gifyu.com/images/wire3.gif",
     category: "React",
   },
   {
